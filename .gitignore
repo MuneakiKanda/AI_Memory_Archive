@@ -1,0 +1,23 @@
+# このリポジトリは設計文書のみを管理する（docs/decisions/ADR-0001-repository-policy.md）。
+# 以下は、記録や秘密情報を誤ってコミットしにくくするための補助。
+
+# 会話の原本・エクスポート・記録の置き場
+/archive/
+/data/
+/exports/
+/records/
+*.zip
+
+# 秘密情報・鍵
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+
+# エディタ・OS
+.obsidian/
+.DS_Store
+Thumbs.db
