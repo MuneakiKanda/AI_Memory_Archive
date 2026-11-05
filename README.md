@@ -28,6 +28,7 @@ AI との会話と、そこで育ったキャラクターの記録を、特定�
 | [設計原則](docs/design-principles.md) | 正式承認済みの12原則（v0.3） |
 | [アーキテクチャ](docs/architecture.md) | 記録の層（L0-R / L0-S / L1〜L3）、同期・バックアップ・継承の概念構成、未決事項 |
 | [ADR-0001](docs/decisions/ADR-0001-repository-policy.md) | Git では設計文書のみを管理する決定 |
+| [ラベルの運用ルール](docs/labels.md) | 誰の番かを示す待ちラベルの使い方 |
 
 ## 進め方
 
